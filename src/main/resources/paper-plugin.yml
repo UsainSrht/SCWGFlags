@@ -4,3 +4,9 @@ main: me.usainsrht.scwgflags.SCWGFlags
 api-version: '1.21'
 authors: [ UsainSrht ]
 description: WorldGuard flags for SurvivalCage
+dependencies:
+  server:
+    WorldGuard:
+      required: true
+      load: BEFORE
+      join-classpath: true
